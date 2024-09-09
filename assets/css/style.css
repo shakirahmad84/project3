@@ -1,0 +1,179 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #eff0f1;
+    color: #333;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+header p {
+    font-size: 12px;
+    color: #727880;
+}
+
+header a.logo {}
+
+header a.logo img {
+    height: 2rem;
+    margin: 1rem auto;
+}
+
+
+
+.age-wrapper {
+    background-color: #ffffff;
+    width: 740px;
+    padding: 3rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.age h4 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #222426;
+    margin-bottom: 25px;
+}
+
+
+.age .age-group a {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #0248ac;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid #eff0f1;
+    border-radius: 0.5rem;
+    background-color: #eff0f1;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.age .age-group a:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.age .age-group a:hover {
+    background-color: #dddee1;
+}
+
+
+footer {
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+footer .footer-links {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 0px 2px;
+}
+
+footer li a {
+    font-size: 12px;
+    color: #727880 !important;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 12px;
+    color: #727880;
+}
+
+footer h6 {
+    font-size: 12px;
+    color: #727880;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .age h4 {
+        font-size: 18px;
+    }
+
+    header a.logo img {
+        height: 1.5rem;
+        margin: 0 auto;
+    }
+
+    header p {
+        margin-bottom: 0;
+    }
+
+    .age-wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .age .age-group a {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 500px) {}
